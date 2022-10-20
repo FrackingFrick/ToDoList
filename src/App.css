@@ -1,6 +1,8 @@
 #content{
-  padding-left: 60px;
-  
+  padding: 60px;
+  background-color: rgb(199, 247, 231);
+  margin: 10px;
+  width: fit-content;
 }
 .App {
   text-align: center;
