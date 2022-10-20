@@ -52,11 +52,9 @@ function App() {
       const editedObject=JSON.parse(json)
       const tempArray=[...tasks]
       const index=tempArray.findIndex(task =>{return task.id===editTask.id})
-
-
+      
       if (index!==1) tempArray[index].description=editDescription
       setTasks(tempArray)
-
       setEditTask(null)
       setEditDescription('')
     }).catch(error => {
